@@ -1,4 +1,4 @@
-name: Compile CosmicLearn (Windows)
+name: Compile CosmicLearn (trying) (Windows)
 
 on:
   push:
