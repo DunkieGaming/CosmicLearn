@@ -1,16 +1,8 @@
-name: Compile CosmicLearn (Windows)
-
-on:
-  push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
-
+name: Windows Build
+on: [push]
 jobs:
-  build:
-
+  Windows-Build:
     runs-on: windows-latest
-
     steps:
     - uses: actions/checkout@v3
     - name: Setup .NET
